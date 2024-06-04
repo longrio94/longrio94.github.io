@@ -10,6 +10,8 @@ redirect_from:
 
 
 ![When Data Science meets Risk Management](/images/github_DS_RM.png){: .align-right width="300px"}
+
+
 👨🏻‍💻 I'm a Risk Modelling Specialist in Benelux region
 
 🔬 I'm interested in bridging the gap between Data Science and Risk Modelling. I am passionate about leveraging the power of Machine Learning and Computational Science to solve and optimize complex problems in Risk Management.
