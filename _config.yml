@@ -3,41 +3,17 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
-# server process.
-
-# Basic Site Settings
-locale                   : "en-US"
-title                    : "Long's personal website"
-title_separator          : "-"
-name                     : &name "Long Hai Le"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
-
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
-author:
-  # Biographic information
-  avatar           : "profile.png"
-  name             : "Long Hai Le" 
-  bio              : "Credit Risk Modeling Specialist, data savvy in Risk Management"
-  location         : "Amsterdam, Netherlands"
-  employer         : "Finalyse"
-  uri              : # URL
-  email            : "lehailong94@gmail.com" 
-
-
-
-  # Social media
-  linkedin         : 'lehailongg'
-  Rpubs            : https://rpubs.com/longrio94
-
-
+# `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
+locale                   : "en-US"
+title                    : "Boris's Homepage"
+title_separator          : "-"
+name                     : &name "Boris Meinardus"
+description              : &description "personal description"
+url                      : https://sudo-Boris.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "sudo-Boris/sudo-Boris.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -71,16 +47,13 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
   path                   : # blank (default) uses feed.xml
-
 
 # SEO Related
 google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
-
 
 # Social Sharing
 twitter:
@@ -100,9 +73,48 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
+
+
+# Site Author
+author:
+  name             : "Boris Meinardus"
+  avatar           : "Profile_pic2.png"
+  bio              : "Multi-Modal Learning \n under Prof. Marcus Rohrbach"
+  location         : "Berlin/ Darmstadt, Germany"
+  employer         : "TU Darmstadt"
+  pubmed           : 
+  googlescholar    : "https://scholar.google.com/citations?user=UMKkDVwAAAAJ"
+  email            : "boris.meinardus00@gmail.com"
+  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  uri              :
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "sudo-Boris"
+  google_plus      :
+  keybase          :
+  instagram        :
+  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  lastfm           :
+  linkedin         : "boris-meinardus-ba2302177"
+  orcid            : 
+  pinterest        :
+  soundcloud       :
+  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  steam            :
+  tumblr           :
+  twitter          : "BorisMeinardus"
+  vine             :
+  weibo            :
+  xing             :
+  youtube          : "@borismeinardus"
+  wikipedia        :
 
 
 # Reading Files
@@ -232,7 +244,6 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
 
 # Sass/SCSS
 sass:
