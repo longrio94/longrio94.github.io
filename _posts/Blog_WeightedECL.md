@@ -1,7 +1,7 @@
 ---
 title: 'Blog Post Weighted-Probablity'
 date: 2024-06-04
-permalink: /posts/2012/08/WeightedECL/
+permalink: /posts/2012/08/blog-post-1/
 tags:
   - cool posts
   - category1
