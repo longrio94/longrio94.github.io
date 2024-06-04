@@ -1,6 +1,6 @@
 ---
 title: 'Blog Post Weighted-Probablity'
-date: 2012-08-14
+date: 2024-06-04
 permalink: /posts/2024/06/WeightedECL/
 tags:
   - cool posts
@@ -8,7 +8,7 @@ tags:
   - category2
 ---
 
-This is a sample blog post.Blog posts are cool.
+This blog post discusses about Weighted ECL
 
 Headings are cool
 ======
