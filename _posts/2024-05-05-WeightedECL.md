@@ -1,5 +1,5 @@
 ---
-title: 'Blog Post Weighted-Probablity'
+title: 'Weighted-Probablity ECL'
 date: 2024-05-05
 permalink: /posts/2024/05/blog-post-1/
 tags:
@@ -8,7 +8,7 @@ tags:
   - category2
 ---
 
-This blog post discusses about Weighted ECL
+This blog discusses about Scenario Weights for ECL in IFRS 9
 
 Headings are cool
 ======
