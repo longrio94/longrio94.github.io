@@ -1,20 +1,22 @@
 ---
-title: 'Weighted-Probablity ECL'
+title: 'Weighted-Probability ECL'
 date: 2024-05-05
 permalink: /posts/2024/05/blog-post-1/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - MonteCarloSimulation
+  - IFRS9
 ---
 
 This blog discusses about Scenario Weights for ECL in IFRS 9
 
-Headings are cool
+IFRS 9 Scenario Weights for ECL: From Simple to Complex
 ======
+
+Simple 3-Scenario Approach
+------
+
 
 You can have many headings
 ======
 
-Aren't headings cool?
-------
+
