@@ -1,5 +1,5 @@
 ---
-title: 'Variable Selection in Credit Risk Models'
+title: 'Variable Selection: The Secret Weapon for Powerful Predictive Models'
 date: 2024-06-06
 permalink: /posts/2024/05/blog-post-2/
 tags:
