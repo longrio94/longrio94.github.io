@@ -1,5 +1,5 @@
 ---
-title: 'Beyond the Raw Data: Feature Engineering as the Jigsaw of Modeling (working on it)'
+title: 'Beyond the Raw Data: Feature Engineering as the Jigsaw of Modeling'
 date: 2024-06-20
 permalink: /posts/2024/06/blog-post-3/
 tags:
@@ -9,7 +9,7 @@ tags:
   - MachineLearning
 ---
 
-This blog discusses about Feature Engineering in Learning models
+⌛ coming soon Work in Progress ⌛
 
 Beyond the Raw Data: Feature Engineering as the Jigsaw of Modeling
 ======
