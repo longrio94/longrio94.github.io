@@ -1,6 +1,6 @@
 ---
 title: 'Variable Selection in Credit Risk Models'
-date: 2024-05-06
+date: 2024-06-06
 permalink: /posts/2024/05/blog-post-2/
 tags:
   - VariableSelection
