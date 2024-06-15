@@ -48,20 +48,11 @@ Step 3: Performance-based Selection
 The most common validation performance metric in credit risk models is AUC (Area Under the Receiver Operating Characteristic curve), so this variable selection step can also be called AUC-based selection. It selects the set of variables that directly optimize the AUC-ROC curve. Moreover, it can be extended to use other metrics besides the AUC-ROC curve. Additionally, different estimators (I personally have tried Ranger-a quick Random Forest) other than the original logistic regression can be used in this technique's procedure.
 
 
+BART using Random Forest
+![BART using Random Forest](/images/BART_RandomForest.jpeg){: .align-right width="900px"}
+
+
 •	**BART: (BAckward Regression Trimming)**: This technique was introduced by Professor Bart Baesens, and more information can be found here: https://github.com/MariaOskarsdottir/BART. The procedure is also outlined in the GitHub link. It is also useful for determining the optimal cutoff for the number of variables to include in the model by directly optimizing the chosen performance metric.
-![BART using Random Forest](/images/BART_RandomForest.jpeg){: .align-right width="600px"}
-
-
-
-***BART using Random Forest***
-
-
-
-
-
-
-
-
 
 
 
