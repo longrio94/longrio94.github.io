@@ -51,5 +51,7 @@ The most common validation performance metric in credit risk models is AUC (Area
 •	**BART: (BAckward Regression Trimming)**: This technique was introduced by Professor Bart Baesens, and more information can be found here: https://github.com/MariaOskarsdottir/BART. The procedure is also outlined in the GitHub link. It is also useful for determining the optimal cutoff for the number of variables to include in the model by directly optimizing the chosen performance metric.
 
 
+![BART using Random Forest](/images/BART_RandomForest.jpeg){: .align-right width="300px"}
+
 
 **Sample code will follow in different markdown**
