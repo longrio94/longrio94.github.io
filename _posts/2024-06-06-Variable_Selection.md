@@ -49,6 +49,7 @@ The most common validation performance metric in credit risk models is AUC (Area
 
 
 BART using Random Forest
+
 ![BART using Random Forest](/images/BART_RandomForest.jpeg){: .align-right width="900px"}
 
 
@@ -56,4 +57,4 @@ BART using Random Forest
 
 
 
-**Sample code will follow in different markdown**
+****Sample code will follow in different markdown****
