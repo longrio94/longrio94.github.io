@@ -26,7 +26,13 @@ Preliminary filtering is the process of quickly and independently screening vari
 •	**Predictive Power Score (PPS)**: PPS is a more robust and powerful alternative to traditional correlation. It only considers the magnitude of the relationship, not the direction, and ranges from 0 (no predictive power) to 1 (perfect predictive power). PPS is data-type agnostic, meaning it can work with both categorical and numerical data. Its biggest advantage is the ability to detect asymmetric, non-linear relationships.
 
 *PPS with 'hmeq' dataset:*
-![PPSR](/images/pps_hmeq.PNG){: .align-right width="350px"}
+![PPSR](/images/pps_hmeq.PNG){: .align-left width="350px"}
+
+
+
+
+
+
 
 
 
