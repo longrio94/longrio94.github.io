@@ -27,9 +27,7 @@ Preliminary filtering is the process of quickly and independently screening vari
 
 *PPS with 'hmeq' dataset:*\
 ![PPSR](/images/pps_hmeq.PNG){: .align-left width="350px"} <br/>
-##
-
-
+<br/>
 •	**Marginal Information Value (MIV)**: MIV calculates the incremental IV gain by adding a new variable to an existing set of variables. In contrast to traditional IV, which ranks variables based solely on individual importance, MIV guides feature selection by iteratively adding features that maximize information gain. Traditional IV may inadvertently introduce collinear variables, whereas MIV seeks variables that improve the model's predictive power without introducing collinearity. MIV is typically calculated in a stepwise manner (but still be considered as filter in my opinion), starting with an initial model and iteratively adding features with the highest MIV until no further improvement is observed.
 
 
