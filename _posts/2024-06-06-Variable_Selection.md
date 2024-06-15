@@ -25,6 +25,10 @@ Preliminary filtering is the process of quickly and independently screening vari
 
 •	**Predictive Power Score (PPS)**: PPS is a more robust and powerful alternative to traditional correlation. It only considers the magnitude of the relationship, not the direction, and ranges from 0 (no predictive power) to 1 (perfect predictive power). PPS is data-type agnostic, meaning it can work with both categorical and numerical data. Its biggest advantage is the ability to detect asymmetric, non-linear relationships.
 
+*PPS with 'hmeq' dataset:*
+![PPSR](/images/pps_hmeq.png){: .align-right width="350px"}
+
+
 
 •	**Marginal Information Value (MIV)**: MIV calculates the incremental IV gain by adding a new variable to an existing set of variables. In contrast to traditional IV, which ranks variables based solely on individual importance, MIV guides feature selection by iteratively adding features that maximize information gain. Traditional IV may inadvertently introduce collinear variables, whereas MIV seeks variables that improve the model's predictive power without introducing collinearity. MIV is typically calculated in a stepwise manner (but still be considered as filter in my opinion), starting with an initial model and iteratively adding features with the highest MIV until no further improvement is observed.
 
@@ -48,7 +52,7 @@ Step 3: Performance-based Selection
 The most common validation performance metric in credit risk models is AUC (Area Under the Receiver Operating Characteristic curve), so this variable selection step can also be called AUC-based selection. It selects the set of variables that directly optimize the AUC-ROC curve. Moreover, it can be extended to use other metrics besides the AUC-ROC curve. Additionally, different estimators (I personally have tried Ranger-a quick Random Forest) other than the original logistic regression can be used in this technique's procedure.
 
 
-*BART using Random Forest:*
+*BART using Random Forest with 'hmeq' dataset:*
 ![BART using Random Forest](/images/BART_RandomForest.jpeg){: .align-right width="900px"}
 
 
