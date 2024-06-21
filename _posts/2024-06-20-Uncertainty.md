@@ -31,6 +31,12 @@ Unlike OLS, QR focuses on different quantiles (percentiles) of the distribution,
 
 For instance, imagine you're studying housing prices. OLS regression would give you the average expected price of a house based on factors like size, location, and number of bedrooms. QR, on the other hand, could tell you the expected price at different quantiles, such as the 10th percentile (representing cheaper houses) or the 90th percentile (representing more expensive houses). This is particularly valuable when making decisions that depend on understanding the full range of possible outcomes, not just the average.
 
+LightGBM, a popular gradient boosting framework, offers a convenient way to implement quantile regression. This allows you to estimate different quantiles (e.g., 10th, 50th, 90th percentiles) of the target variable, providing a more comprehensive view of its distribution compared to traditional regression models.
+
+# Train a quantile regression model for the 90th percentile in Python
+model = lgb.LGBMRegressor(objective='quantile', alpha=0.9)
+
+
 
 2.Conformal Prediction to measuring uncertainty
 -------
