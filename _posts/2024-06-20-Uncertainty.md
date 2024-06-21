@@ -25,7 +25,12 @@ The model, just like us, prefers to give a range of predicted values rather than
 1.Quantile Regression with LightGBM
 -------
 
-(tbc)
+Quantile Regression (QR) is an extension of Ordinary Least Squares (OLS) linear regression. While OLS focuses on modeling the mean value of the target variable, QR goes further by modeling its entire conditional distribution. This allows QR to provide a richer and more informative picture of the relationship between variables, moving beyond the limitations of predicting only the average value.
+
+Unlike OLS, QR focuses on different quantiles (percentiles) of the distribution, not just the mean. This makes it more robust to outliers and violations of the normality assumption, which are often present in real-world data. Consequently, QR can provide more trustworthy estimates than mean regression, making it a valuable tool for Uncertainty Quantification. In essence, QR allows us to explore the full spectrum of possible outcomes, rather than just the most likely outcome, leading to a more comprehensive understanding of uncertainty in predictive models.
+
+For instance, imagine you're studying housing prices. OLS regression would give you the average expected price of a house based on factors like size, location, and number of bedrooms. QR, on the other hand, could tell you the expected price at different quantiles, such as the 10th percentile (representing cheaper houses) or the 90th percentile (representing more expensive houses). This is particularly valuable when making decisions that depend on understanding the full range of possible outcomes, not just the average.
+
 
 2.Conformal Prediction to measuring uncertainty
 -------
