@@ -70,11 +70,11 @@ CQR combines the strengths of CP and QR to produce prediction intervals with val
 
 Imagine you're exploring the housing market. Your mortgage advisor (aka Quantile Regression) analyzes the market and provides a comprehensive view of potential prices. They tell you that for houses similar to the one you're interested in:
 
-•	10th percentile: €200,000 (potentially undervalued properties)
+•	10th percentile: 200,000 (potentially undervalued properties)
 
-•	50th percentile: €250,000 (the median price - just like point estimate)
+•	50th percentile: 250,000 (the median price - just like point estimate)
 
-•	90th percentile: €300,000 (potentially overvalued properties)
+•	90th percentile: 300,000 (potentially overvalued properties)
 
 
 This gives you a broad understanding of the price range, but you're cautious and want to be more certain about your investment.  That's where your "inner voice of caution" (aka Conformal Prediction) steps in. You will do your own research. It takes the information from your housing expert and, after carefully considering recent sales data and market trends, adds a layer of confidence. It tells you: "I'm 95% confident that the actual selling price of this particular house will fall between 190,000 and 295,000."
