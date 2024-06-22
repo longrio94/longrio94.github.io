@@ -16,8 +16,11 @@ Uncertainty is a crucial factor in decision-making that needs more attention whe
 
 
 In essence:
-•	CP focuses on the validity of prediction intervals.
+
 •	QR focuses on capturing the full distribution of the response.
+
+•	CP focuses on the validity of prediction intervals.
+
 •	CQR brings together both aspects to offer a powerful and reliable uncertainty quantification tool.
 
 
