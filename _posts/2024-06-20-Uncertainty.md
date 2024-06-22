@@ -15,10 +15,17 @@ Uncertainty Quantification: From Point to Interval
 
 Uncertainty is a crucial factor in decision-making that needs more attention when using machine learning models. In machine learning, where uncertainty is inherent and can significantly impact decision-making, Quantile Regression (QR), Conformal Prediction (CP), and Conformalized Quantile Regression (CQR) offer valuable tools to enhance model reliability and interpretability. These techniques help machine learning models evolve from providing point estimates to delivering interval estimates that capture and quantify uncertainty, thereby supporting more robust decision-making processes.
 
+In essence:
+•	CP focuses on the validity of prediction intervals.
+•	QR focuses on capturing the full distribution of the response.
+•	CQR brings together both aspects to offer a powerful and reliable uncertainty quantification tool.
+
+
 Let's explain conformal prediction in simple terms, using a real-life example that might remind you of your favorite childhood game show in Vietnam, "Hãy chọn giá đúng" (Choose the Correct Price). Remember how you had to guess the exact price of a product to win? It was a fun challenge, but wouldn't it be easier to give a price range instead? If you guessed 100,000 VND but the actual price was 102,500 VND, you'd lose. However, if you could say the price was between 100,000 VND and 105,000 VND, you'd be much more likely to win!
 
 
 The model, just like us, prefers to give a range of predicted values rather than a single, absolute value. This is where the benefit of prediction intervals comes into play for decision-making. In essence, moving from point estimates to interval estimates can provide a more informative and reliable prediction.
+
 
 
 
@@ -45,7 +52,7 @@ model = lgb.LGBMRegressor(objective='quantile', alpha=0.9)
 Conformal Prediction (CP) focuses on creating reliable prediction intervals with guaranteed coverage, while Quantile Regression (QR) models the entire distribution of possible outcomes. CP's model-agnostic and distribution-free nature, meaning it can be applied to any machine learning algorithm and doesn't rely on assumptions about the underlying data distribution, makes it particularly well-suited for the diverse and often complex datasets encountered in machine learning. Thus, CP is a powerful technique for quantifying uncertainty in machine learning algorithms. Given an input, conformal prediction produces a prediction interval for regression problems, estimating a range within which the true value is likely to fall with a high probability. For classification problems, CP generates a set of possible classes, again with a high probability of containing the true class.
 
 
-Imagine you're a trying to predict the selling price of a house. You've collected data on various features of houses in your area, such as square footage, number of bedrooms, and location, along with their actual selling prices. You use this data to train a machine learning model to predict house prices. Traditionally, your model might give you a single price estimate for the house, like €350,000. But with CP, you get something more informative: a prediction interval. For example, your CP model might say, "I'm 90% confident that the house will sell for between €325,000 and €375,000." This means that based on similar houses it has seen before, the model is fairly certain the true selling price falls within this range. In short, instead of asking what will be the price, we can alternatively ask what will be the likelihood of the price and how confident we are. 
+Imagine you're a trying to predict the selling price of a house. You've collected data on various features of houses in your area, such as square footage, number of bedrooms, and location, along with their actual selling prices. You use this data to train a machine learning model to predict house prices. Traditionally, your model might give you a single price estimate for the house, like €350,000. But with CP, you get something more informative: a prediction interval. For example, your CP model might say, "I'm 90% confident that the house will sell for between 325,000 and 375,000." This means that based on similar houses it has seen before, the model is fairly certain the true selling price falls within this range. In short, instead of asking what will be the price, we can alternatively ask what will be the likelihood of the price and how confident we are. 
 
 
 
@@ -53,6 +60,6 @@ Imagine you're a trying to predict the selling price of a house. You've collecte
 3.Combining Conformal Prediction and Quantile Regression (Confomalized Quantile Regression)
 -------
 
-(tbc)
+CQR combines the strengths of CP and QR to produce prediction intervals with valid coverage probabilities and accurate quantile estimates. It wraps a quantile regression model with a conformal prediction layer, using a nonconformity measure to construct prediction intervals. CQR, like other CP methods, offers a unique advantage: when it produces a 95% prediction interval, you can be absolutely certain it's 95% accurate. This holds true regardless of the data distribution, sample size, or the underlying model – be it statistical / machine learning. This guarantee of reliability sets CQR apart, making it a valuable tool for uncertainty quantification
 
 
