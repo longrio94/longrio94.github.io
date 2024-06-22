@@ -71,7 +71,9 @@ CQR combines the strengths of CP and QR to produce prediction intervals with val
 Imagine you're exploring the housing market. Your mortgage advisor (aka Quantile Regression) analyzes the market and provides a comprehensive view of potential prices. They tell you that for houses similar to the one you're interested in:
 
 •	10th percentile: €200,000 (potentially undervalued properties)
-•	50th percentile: €250,000 (the median price)
+
+•	50th percentile: €250,000 (the median price - just like point estimate)
+
 •	90th percentile: €300,000 (potentially overvalued properties)
 
 
