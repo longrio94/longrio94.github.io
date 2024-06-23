@@ -7,6 +7,8 @@ tags:
   - IFRS9
 ---
 
+Weighted-Probability ECL
+--------
 
 Inspired by wonderful discussion from this blog post about “IFRS 9 Scenario Weights for ECL: A Simple Rule” [here]([url](https://www.garp.org/risk-intelligence/credit/ifrs9-scenario-ecl-031023)), I would like to extend the discussion to my experience and understanding. 
 
