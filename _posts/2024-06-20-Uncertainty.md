@@ -46,10 +46,6 @@ For instance, imagine you're studying housing prices. OLS regression would give 
 
 LightGBM, a popular gradient boosting framework, offers a convenient way to implement quantile regression. This allows you to estimate different quantiles (e.g., 10th, 50th, 90th percentiles) of the target variable, providing a more comprehensive view of its distribution compared to traditional regression models.
 
-**Train a quantile regression model for the 90th percentile in Python:**
-
-model = lgb.LGBMRegressor(objective='quantile', alpha=0.9)
-
 
 
 2.Conformal Prediction to measuring uncertainty
