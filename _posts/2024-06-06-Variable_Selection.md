@@ -8,7 +8,6 @@ tags:
   - MachineLearning
 ---
 
-This blog discusses about Variable Selection in Credit Risk Models
 
 Variable Selection: The Secret Weapon for Powerful Predictive Models
 ======
