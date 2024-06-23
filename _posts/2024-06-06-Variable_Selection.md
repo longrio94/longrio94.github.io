@@ -9,10 +9,6 @@ tags:
 ---
 
 
-Variable Selection: The Secret Weapon for Powerful Predictive Models
-======
-
-
 Step 1: Preliminary Filtering
 -------
 
