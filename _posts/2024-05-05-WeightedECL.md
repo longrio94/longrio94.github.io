@@ -7,10 +7,7 @@ tags:
   - IFRS9
 ---
 
-This blog discusses about Scenario Weights for ECL in IFRS 9
 
-IFRS 9 Scenario Weights for ECL: From Simple to Complex
-======
 Inspired by wonderful discussion from this blog post about “IFRS 9 Scenario Weights for ECL: A Simple Rule” [here]([url](https://www.garp.org/risk-intelligence/credit/ifrs9-scenario-ecl-031023)), I would like to extend the discussion to my experience and understanding. 
 
 Under IFRS 9, Expected Credit Loss (ECL) calculations require the use of scenario weights to reflect the probability of different economic outcomes. These weights range from simple to complex depending on the sophistication of the modeling approach.
