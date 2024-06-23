@@ -1,4 +1,3 @@
-
 ---
 title: 'Feature Engineering: From Groundwork to Greatness'
 date: 2024-06-30
@@ -7,11 +6,11 @@ tags:
   - CreditRiskModel
   - MachineLearning
   - FeatureEngineering
-
 ---
 
 
 Feature Engineering: From Groundwork to Greatness
 ======
 
-⏳  Work in Progress Coming Soon  ⏳
+⏳   Work in Progress  ⏳ 
+⏳   Coming Soon       ⏳
