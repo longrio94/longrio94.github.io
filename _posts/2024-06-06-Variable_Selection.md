@@ -12,6 +12,12 @@ tags:
 
 
 
+Variable selection is a crucial step in building effective machine learning models. It involves choosing the 'best' subset of predictors or features to include in the model. The goal is to identify the most relevant variables that will improve the model's performance and accuracy. By carefully selecting these variables, we can enhance the model's predictive power and efficiency.
+
+Below are robust steps we can try for variable selection in model pipeline:
+
+
+
 Step 1: Preliminary Filtering
 -------
 
