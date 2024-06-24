@@ -29,6 +29,5 @@ In this blog post, I will discuss about feature engineering techniques and their
 6.  Transformation
 7.  (extra) Feature Creation
    
-9.  
 
 ⏳ (TBC) ⏳
