@@ -14,9 +14,11 @@ redirect_from:
 
 👨🏻‍💻 I'm a Risk Modelling Specialist in Benelux region
 
+
 🔬 I'm interested in bridging the gap between Data Science and Risk Modelling. I am passionate about leveraging the power of Machine Learning and Computational Science to solve and optimize complex problems in Risk Management.
 
-👨🏻‍🔬 Please find the tab 'Blog Posts' to find my blogs about Risk Modelling and Data Science. I am working on it and more blog posts will come shortly 🚀.
+
+👨🏻‍🔬 Welcome! Please visit the "Blog Posts" tab to explore my articles on Risk Modeling and Data Science. I'm passionate about sharing knowledge because I believe it's a powerful way to learn from others. This blog is a new endeavor, and I'm excited to nurture it with many interesting posts in the near future. 🚀.
 
 
 
