@@ -19,5 +19,16 @@ We often talk about "data-driven" models, but what does it really mean? Personal
 
 Feature engineering is the art and science of transforming raw data into meaningful features that enhance the performance, accuracy, and interpretability of machine learning models. It involves selecting, cleaning, creating, and transforming features to better represent the underlying problem and unlock the full potential of your data.
 
+In this blog post, I will discuss about feature engineering techniques and their treatment:
+
+1.  Missing Imputation
+2.  Outliers (for continuous variables)
+3.  Cardinality (for categorical variables)
+4.  Variable Encoding
+5.  Scaling
+6.  Transformation
+7.  (extra) Feature Creation
+   
+9.  
 
 ⏳ (TBC) ⏳
