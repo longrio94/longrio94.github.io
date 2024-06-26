@@ -18,8 +18,8 @@ Variable selection is a crucial step in building effective machine learning mode
 Parsimony in variable selection is paramount in constructing effective models. It emphasizes the balance between model simplicity and explanatory power. The adjusted R^2 concept (everyone may be familiar with) complements this by adjusting the goodness-of-fit measure to account for the number of variables used, providing a more accurate reflection of model performance. On the flip side, the curse of dimensionality warns against including an excessive number of variables, which can lead to overfitting and diminish the model's predictive capability. Striking a balance between these factors ensures that models are both interpretable and robust, capturing essential relationships without unnecessary complexity
 
 
-Below are robust steps we can try for variable selection in model pipeline:
 
+**Below are robust steps we can try for variable selection in model pipeline**
 
 
 Step 1: Preliminary Filtering
