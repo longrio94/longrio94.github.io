@@ -7,7 +7,8 @@ author_profile: true
 
 {% include base_path %}
 
+{% assign portfolio_items = site.portfolio | where_exp: "item", "item.extname == '.md'" %}
 
-{% for post in site.portfolio %}
- {% include archive-single.html %}
+{% for post in portfolio_items %}
+  {% include archive-single.html %}
 {% endfor %}
