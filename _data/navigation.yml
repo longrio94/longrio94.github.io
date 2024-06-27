@@ -4,7 +4,7 @@ main:
     url: /year-archive/
 
   - title: "More About Me"
-    url: /portfolio/
+    url: portfolio.html
     
   - title: "My CV"
     url: https://drive.google.com/file/d/1cJfJM76zL2oo7526Qq_NCkfEO68bOxPl/view?usp=sharing
