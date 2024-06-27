@@ -1,14 +1,13 @@
 ---
 layout: archive
-title: "More About Me"
+title: "Portfolio"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
-{% assign portfolio_items = site.portfolio | where_exp: "item", "item.extname == '.html'" %}
 
-{% for post in portfolio_items %}
-  {% include archive-single.html %}
+{% for post in site.portfolio %}
+ {% include archive-single.html %}
 {% endfor %}
