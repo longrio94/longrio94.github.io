@@ -11,7 +11,6 @@ tags:
 ⏳   Work in Progress  ⏳ 
 ⏳     Coming Soon     ⏳
 
-======
 
 
 We often talk about "data-driven" models, but what does it really mean? Personally, I believe it's about leveraging the information hidden within data to build predictive and insightful models. While we often focus on the algorithms themselves, the true power of these models lies in the quality and representation of the data they learn from.
@@ -22,7 +21,8 @@ Feature engineering is the art and science of transforming raw data into meaning
 
 In data processing and feature engineering, we often categorize variables as numerical or categorical. This distinction enables us to apply specialized preprocessing techniques tailored to each variable type, optimizing model performance and ensuring robust predictions. 
 
-In Python, we can streamline these processes using 'Pipeline', which facilitate seamless integration of preprocessing steps with model training, making the entire workflow more efficient and reproducible. My favourite tutorial about Pipeline in Python is [here]([url](https://www.youtube.com/watch?v=h1BnRBzYjYY&t=1037s))
+In Python, we can streamline these processes using 'Pipeline', which facilitate seamless integration of preprocessing steps with model training, making the entire workflow more efficient and reproducible. My favourite tutorial about Pipeline in Python is [here]([url](https://www.youtube.com/watch?v=h1BnRBzYjYY&t=30s))
+
 
 In this blog post, I will discuss about feature engineering techniques and their treatment:
 
@@ -35,4 +35,8 @@ In this blog post, I will discuss about feature engineering techniques and their
 7.  (extra) Feature Creation
    
 
+
 ⏳ (TBC) ⏳
+
+# 1.  Missing Imputation
+
