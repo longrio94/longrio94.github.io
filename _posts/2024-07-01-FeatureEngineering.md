@@ -45,3 +45,11 @@ In credit risk models, or any machine learning model dealing with tabular datase
 
 
 Missingness refers to the absence of data values in a dataset, and it can manifest in various forms. Broadly, missing data can be categorized as either ***informative*** or ***non-informative***, indicating whether the absence of data itself carries meaningful information. Within these categories, there are three specific types of missingness: ***MCAR (Missing Completely at Random)***, ***MAR (Missing at Random)***, and ***MNAR (Missing Not at Random)***.
+
+
+Type	Informative vs. Non-informative	Description	Example	Implication
+MCAR	Non-informative	Missingness unrelated to data values (observed or missing)	Typo; data entry errors	Least severe, simple imputation often sufficient
+MAR	Informative or Non-informative	Missingness depends on observed data, not missing values	Low-income borrowers less likely to report income	Requires careful imputation, consider variable relationships
+MNAR	Informative	Missingness depends on unobserved data	Bad' borrowers negative information	Most severe, requires advanced modeling techniques
+![image](https://github.com/longrio94/longrio94.github.io/assets/37896699/4e6b0ec8-07ee-41c9-b521-8a622020ed8c)
+
