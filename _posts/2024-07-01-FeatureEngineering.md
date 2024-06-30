@@ -24,7 +24,7 @@ In data processing and feature engineering, we often categorize variables as num
 In Python, we can streamline these processes using 'Pipeline', which facilitate seamless integration of preprocessing steps with model training, making the entire workflow more efficient and reproducible. My favourite tutorial about Pipeline in Python is [here]([url](https://www.youtube.com/watch?v=h1BnRBzYjYY&t=30s))
 
 
-In this blog post, I will discuss about feature engineering techniques and their treatment:
+In this blog post, I will discuss about feature engineering techniques and the treatment:
 
 1.  Missing Imputation
 2.  Outliers (for continuous variables)
@@ -33,6 +33,7 @@ In this blog post, I will discuss about feature engineering techniques and their
 5.  Scaling
 6.  Transformation
 7.  (extra) Feature Creation
+8.  Binning
    
 
 
@@ -42,7 +43,7 @@ In this blog post, I will discuss about feature engineering techniques and their
 In credit risk models, or any machine learning model dealing with tabular datasets, we frequently encounter the challenge of missing data. But what exactly is missingness, and why does it matter? What are the different types and their unique characteristics? Most importantly, how can we effectively address this issue to ensure the accuracy and reliability of our models?
 
 
-Missingness refers to the absence of data values in a dataset, and it can manifest in various forms. Broadly, missing data can be categorized as either ***informative*** or ***non-informative***, indicating whether the absence of data itself carries meaningful information. Within these categories, there are three specific types of missingness: ***MCAR (Missing Completely at Random)***, ***MAR (Missing at Random)***, and ***MNAR (Missing Not at Random)***. The summary table understand more about Missingness in Credit Risk context:\
+Missingness refers to the absence of data values in a dataset, and it can manifest in various forms. Broadly, missing data can be categorized as either ***informative*** or ***non-informative***, indicating whether the absence of data itself carries meaningful information. Within these categories, there are three specific types of missingness: ***MCAR (Missing Completely at Random)***, ***MAR (Missing at Random)***, and ***MNAR (Missing Not at Random)***. The summary table to understand more about Missingness in Credit Risk context:
 
 
 
