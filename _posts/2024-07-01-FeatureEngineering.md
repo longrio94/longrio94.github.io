@@ -50,8 +50,8 @@ Missingness refers to the absence of data values in a dataset, and it can manife
 Type	Informative vs. Non-informative	Description	Example	Implication
 MCAR	Non-informative	Missingness unrelated to data values (observed or missing)	Typo; data entry errors	Least severe, simple imputation often sufficient
 MAR	Informative or Non-informative	Missingness depends on observed data, not missing values	Low-income borrowers less likely to report income	Requires careful imputation, consider variable relationships
-MNAR	Informative	Missingness depends on unobserved data	Bad' borrowers negative information	Most severe, requires advanced modeling techniques
-![image](https://github.com/longrio94/longrio94.github.io/assets/37896699/4e6b0ec8-07ee-41c9-b521-8a622020ed8c)
+MNAR	Informative	Missingness depends on unobserved data	"Bad" borrowers omit negative information	Most severe, requires advanced modeling techniques
+![image](https://github.com/longrio94/longrio94.github.io/assets/37896699/39287277-b61c-43fb-9398-cf96596e3c54)
 
 
 
