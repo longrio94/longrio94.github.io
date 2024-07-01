@@ -91,6 +91,7 @@ MICE is well-suited for MNAR scenarios where the missingness mechanism is comple
 
 
 
+Here is an example of Python code to implement a robust missing imputation using a custom-built pipeline in Python:
 
 
 
