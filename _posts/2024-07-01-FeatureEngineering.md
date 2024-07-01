@@ -46,8 +46,51 @@ In credit risk models, or any machine learning model dealing with tabular datase
 Missingness refers to the absence of data values in a dataset, and it can manifest in various forms. Broadly, missing data can be categorized as either ***informative*** or ***non-informative***, indicating whether the absence of data itself carries meaningful information. Within these categories, there are three specific types of missingness: ***MCAR (Missing Completely at Random)***, ***MAR (Missing at Random)***, and ***MNAR (Missing Not at Random)***. The summary table to understand more about Missingness in Credit Risk context:
 
 
-
 ![image](https://github.com/longrio94/longrio94.github.io/assets/37896699/39287277-b61c-43fb-9398-cf96596e3c54){: .align-middle width="1000px"}
+
+
+
+***Non-Informative Missing***: The absence of data is unrelated to the underlying value. A random typo in a credit report and data entry errors wouldn't necessarily reflect the borrower's likelihood and ability to repay a loan.
+
+***Informative Missing***: The absence of data itself provides valuable information about the missing value. For instance, in credit risk, borrowers who anticipate default might intentionally omit negative financial information. This missingness is related to the borrower's creditworthiness.
+
+***MCAR (Missing Completely at Random)***: The missingness is entirely random and unrelated to any observed or unobserved variables. Think of a survey respondent accidentally skipping a question on their income.
+
+***MAR (Missing at Random)***: The missingness depends on observed data but not on the missing values themselves. For example, younger borrowers might be less likely to have a long credit history, resulting in missing values for certain credit-related variables.
+
+***MNAR (Missing Not at Random)***: The missingness is related to the missing values themselves. In credit risk, borrowers with a history of default might be less likely to report it.
+
+
+Different types of missingness demand tailored approaches, based on their unique characteristics, to ensure the integrity and accuracy of your credit risk models. Let's explore the  treatments and the reasoning behind them:
+
+
+### Non-Informative Missing (MCAR): K-Nearest Neighbors (KNN) Imputation
+
+KNN imputation leverages the power of similarity to fill in missing values. It works by identifying the 'k' most similar complete instances (neighbors) to the one with missing data, based on the values of other features. The missing value is then estimated as a weighted average or the most frequent value (for categorical data) of its neighbors. For instance, if k=10, KNN will use the information from the 10 nearest neighbors to fill in the missing value.
+
+
+Since MCAR missingness is random, the missing values are assumed to be similar to the observed values in the same feature. KNN imputation effectively exploits this assumption by borrowing information from similar (nearest) instances.
+
+
+
+### Missing at Random (MAR): MissForest Imputation
+
+MissForest is a non-parametric imputation method that employs random forests to predict missing values. It is also known as Regression imputation. It iteratively builds multiple random forest models, using the observed data to predict the missing values and then using the imputed values to improve the predictions in subsequent iterations.
+
+
+MissForest's strength lies in its ability to capture complex relationships and interactions between variables, making it suitable for MAR scenarios where the missingness depends on observed data.
+
+
+### Missing Not at Random (MNAR): Multiple Imputation by Chained Equations (MICE)
+
+
+MICE is a flexible and powerful imputation method that handles missing data by creating multiple plausible imputed datasets. Each dataset is then analyzed separately, and the results are combined to account for the uncertainty due to missingness. MICE shows advantages for its flexibility in handling missing data, reducing bias estimate, and enhancing parameter estimate accuracy.
+
+
+MICE is well-suited for MNAR scenarios where the missingness mechanism is complex and depends on the missing values themselves. By creating multiple imputations, MICE captures the variability and uncertainty associated with the missing data, leading to more robust and reliable estimates.
+
+
+
 
 
 
