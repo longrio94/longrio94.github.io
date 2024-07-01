@@ -21,7 +21,7 @@ Feature engineering is the art and science of transforming raw data into meaning
 
 In data processing and feature engineering, we often categorize variables as numerical or categorical. This distinction enables us to apply specialized preprocessing techniques tailored to each variable type, optimizing model performance and ensuring robust predictions. 
 
-In Python, we can streamline these processes using 'Pipeline', which facilitate seamless integration of preprocessing steps with model training, making the entire workflow more efficient and reproducible. My favourite tutorial about Pipeline in Python is [here]([url](https://www.youtube.com/watch?v=h1BnRBzYjYY&t=30s))
+In Python, we can streamline these processes using 'Pipeline', which facilitate seamless integration of preprocessing steps with model training, making the entire workflow more efficient and reproducible. My favourite tutorial about Pipeline in Python is [here](https://youtu.be/h1BnRBzYjYY?si=S_nJoyggROd7vNsw)
 
 
 In this blog post, I will discuss about feature engineering techniques and the treatment:
