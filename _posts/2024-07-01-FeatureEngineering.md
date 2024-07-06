@@ -99,6 +99,8 @@ Here is an example of Python code to implement a robust missing imputation using
 ![image](https://github.com/longrio94/longrio94.github.io/assets/37896699/f978a499-1e88-4fd4-980b-fee0ae9dd88d){: .align-middle width="800px"}
 
 
+
+
 # 2.  Outliers 
 
 Outliers in continuous variables are a critical consideration in data preparation and feature engineering for both credit risk and general machine learning models. Outliers are extreme or unusual values that deviate significantly from the typical patterns in the dataset. They can arise from data entry errors, rare but valid events (e.g., a billionaire's net worth), or genuine but atypical observations (a pensioner has no income but high assets).
@@ -107,7 +109,7 @@ Outliers in continuous variables are a critical consideration in data preparatio
 In linear regression, outliers can severely violate the assumptions of normality and homoscedasticity (constant variance of errors). This can lead to biased parameter estimates, incorrect standard errors, and unreliable predictions, especially for new data points similar to the outliers. While machine learning models might not rely on these strict assumptions, outliers can still significantly affect their performance. Outliers can distort the patterns the model learns, leading to biased predictions, reduced ability to generalize to new data, and misleading feature importance rankings. They can also exacerbate the risk of overfitting, particularly in complex models.
 
 
-To mitigate these issues, various techniques like removal, capping, and transformations can be employed. However, let's focus on two capping techniques—Winsorization and Robust Scaling—for now, as these methods maintain the number of data rows. Transformations will be discussed in a separate session.
+To mitigate these issues, various techniques like removal, capping, and transformations can be employed. However, let's focus on two capping techniques— ***Winsorization*** and ***Robust Scaling*** —for now, as these methods maintain the number of data rows. Transformations will be discussed in a separate session.
 
 
 
@@ -116,6 +118,8 @@ To mitigate these issues, various techniques like removal, capping, and transfor
 
 
 ### Robust Scaling
+
+
 
 
 
