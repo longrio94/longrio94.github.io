@@ -101,7 +101,7 @@ Here is an example of Python code to implement a robust missing imputation using
 
 # 2.  Outliers 
 
-Outliers in numerical variables are a critical consideration in data preparation and feature engineering for both credit risk and general machine learning models. Outliers are extreme or unusual values that deviate significantly from the typical patterns in the dataset. They can arise from data entry errors, rare but valid events (e.g., a billionaire's net worth), or genuine but atypical observations (a pensioner has no income but high assets).
+Outliers in continuous variables are a critical consideration in data preparation and feature engineering for both credit risk and general machine learning models. Outliers are extreme or unusual values that deviate significantly from the typical patterns in the dataset. They can arise from data entry errors, rare but valid events (e.g., a billionaire's net worth), or genuine but atypical observations (a pensioner has no income but high assets).
 
 
 In linear regression, outliers can severely violate the assumptions of normality and homoscedasticity (constant variance of errors). This can lead to biased parameter estimates, incorrect standard errors, and unreliable predictions, especially for new data points similar to the outliers. While machine learning models might not rely on these strict assumptions, outliers can still significantly affect their performance. Outliers can distort the patterns the model learns, leading to biased predictions, reduced ability to generalize to new data, and misleading feature importance rankings. They can also exacerbate the risk of overfitting, particularly in complex models.
