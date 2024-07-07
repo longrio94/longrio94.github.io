@@ -115,12 +115,16 @@ To mitigate these issues, various techniques like removal, capping, and transfor
 
 
 
-### Winsorization <br />
+### Winsorization: 
+
+Winsorization is a technique for handling outliers by capping them at specific percentiles, such as the 95th and 5th percentiles. Extreme values are replaced with the corresponding percentile values, retaining their relative position but potentially sacrificing information about their true magnitude. This method offers a simple way to mitigate the influence of outliers while preserving the overall dataset size.
 
 
 
-### Robust Scaling <br />
 
+### Robust Scaling:
+
+Robust scaling, on the other hand, standardizes data based on the median and interquartile range (IQR), making it less sensitive to outliers. It involves subtracting the median from each data point and then dividing by the range ofIQRs. This approach avoids discarding any data points, making it robust against extreme values without removing data pointss. However, the resulting scaled values might be less intuitive to interpret compared to the original data range.
 
 
 
