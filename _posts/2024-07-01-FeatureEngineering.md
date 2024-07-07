@@ -124,7 +124,7 @@ Winsorization is a technique for handling outliers by capping them at specific p
 
 ### Robust Scaling:
 
-Robust scaling, on the other hand, standardizes data based on the median and interquartile range (IQR), making it less sensitive to outliers. It involves subtracting the median from each data point and then dividing by the range ofIQRs. This approach avoids discarding any data points, making it robust against extreme values without removing data pointss. However, the resulting scaled values might be less intuitive to interpret compared to the original data range.
+Robust scaling, on the other hand, standardizes data based on the median and interquartile range (IQR), making it less sensitive to outliers. It involves subtracting the median from each data point and then dividing by the range ofIQRs. This approach avoids discarding any data points, making it robust against extreme values without removing data points. However, the resulting scaled values might be less intuitive to interpret compared to the original data range.
 
 
 
