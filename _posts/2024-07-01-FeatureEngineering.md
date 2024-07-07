@@ -108,7 +108,7 @@ Here is an example of Python code to implement a robust missing imputation using
 Outliers in continuous variables are a critical consideration in data preparation and feature engineering for both credit risk and general machine learning models. Outliers are extreme or unusual values that deviate significantly from the typical patterns in the dataset. They can arise from data entry errors, rare but valid events (a billionaire's net worth), or genuine but atypical observations (a pensioner has no income but high assets).
 
 
-In linear regression, outliers can severely violate the assumptions of normality and homoscedasticity (constant variance of errors). This can lead to biased parameter estimates, incorrect standard errors, and unreliable predictions, especially for new data points similar to the outliers. While machine learning models might not rely on these strict assumptions, outliers can still significantly affect their performance. Outliers can distort the patterns the model learns, leading to biased predictions, reduced ability to generalize to new data, and misleading feature importance rankings. They can also exacerbate the risk of overfitting, particularly in complex models.
+In linear regression, outliers can severely violate the assumptions of normality and homoscedasticity (constant variance of errors). This can lead to biased parameter estimates, incorrect standard errors, and unreliable predictions, especially for new data points similar to the outliers. While machine learning models might not rely on these strict assumptions, outliers can still significantly affect their performance. Outliers can distort the patterns the model learns, leading to biased predictions, reduced ability to generalize to new data, and misleading feature importance rankings. For instance, an outlier like a billionaire's net worth could disproportionately influence a model's understanding of the relationship between wealth and credit risk. Outliers can also worsen the risk of overfitting, particularly in complex models because model may try to memorize these outliers instead of learning the generalizable patterns in the data.
 
 
 To mitigate these issues, various techniques like removal, capping, and transformations can be employed. However, let's focus on two capping techniques— ***Winsorization*** and ***Robust Scaling*** —for now, as these methods maintain the number of data rows. Transformations will be discussed in a separate session.<br />
@@ -120,6 +120,9 @@ To mitigate these issues, various techniques like removal, capping, and transfor
 
 
 ### Robust Scaling <br />
+
+
+
 
 
 
