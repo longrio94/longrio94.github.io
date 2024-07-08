@@ -122,9 +122,7 @@ Winsorization is a technique for handling outliers by capping them at specific p
 Pseudo code of Winsorization :
 
 if value < lower_percentile_value -> winsorized_value = lower_percentile_value
-
 else if value > upper_percentile_value -> winsorized_value = upper_percentile_value
-
 else -> winsorized_value = value
 
 
