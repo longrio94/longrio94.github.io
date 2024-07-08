@@ -121,9 +121,9 @@ Winsorization is a technique for handling outliers by capping them at specific p
 
 Pseudo code of Winsorization :
 
-if value < lower_percentile_value -> winsorized_value = lower_percentile_value
-else if value > upper_percentile_value -> winsorized_value = upper_percentile_value
-else -> winsorized_value = value
+if value < lower_percentile_value -> winsorized_value = lower_percentile_value <br>
+else if value > upper_percentile_value -> winsorized_value = upper_percentile_value <br>
+else -> winsorized_value = value <br>
 
 
 Or you can use *Winsorization* from *scipy.stats*: [here](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.mstats.winsorize.html)
@@ -135,7 +135,7 @@ Or you can use *Winsorization* from *scipy.stats*: [here](https://docs.scipy.org
 Robust scaling, on the other hand, standardizes data based on the median and interquartile range (IQR), making it less sensitive to outliers. It involves subtracting the median from each data point and then dividing by the range of IQRs (for example p75 and p25). This approach avoids discarding any data points, making it robust against extreme values without removing data points.
 
 
-Pseudo code of Robust Scaling: Robust Scaling Value = (value - median) / (p75 - p25)
+Pseudo code of Robust Scaling: Robust Scaling Value = (value - median) / (p75 - p25) <br>
 
 
 In Python, you can use method *RobustScaler* directly from *sklearn.preprocessing*.  [here](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html)
