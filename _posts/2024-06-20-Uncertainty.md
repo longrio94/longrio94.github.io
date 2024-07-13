@@ -12,7 +12,7 @@ tags:
 
 
 
-Uncertainty is a crucial factor in decision-making that needs more attention when using machine learning models. In machine learning, where uncertainty is inherent and can significantly impact decision-making, Quantile Regression (QR), Conformal Prediction (CP), and Conformalized Quantile Regression (CQR) offer valuable tools to enhance model reliability and interpretability. These techniques help machine learning models evolve from providing point estimates to delivering interval estimates that capture and quantify uncertainty, thereby supporting more robust decision-making processes.
+Uncertainty is a crucial factor in decision-making that needs more attention when using machine learning models. In machine learning, where uncertainty is resultant and can significantly impact decision-making, Quantile Regression (QR), Conformal Prediction (CP), and Conformalized Quantile Regression (CQR) offer valuable tools to enhance model reliability and interpretability. These techniques help machine learning models evolve from point estimates to interval estimates that capture and quantify uncertainty, therefore supporting more robust decision-making processes.
 
 
 In essence:
