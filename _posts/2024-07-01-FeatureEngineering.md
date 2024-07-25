@@ -29,11 +29,12 @@ In this blog post, I will discuss about feature engineering techniques and the t
 1.  Missing Imputation
 2.  Outliers (for continuous variables)
 3.  Cardinality (for categorical variables)
-4.  Variable Encoding
-5.  Scaling
-6.  Transformation
-7.  (extra) Feature Creation
-8.  Binning
+4.  Binning (Manual & Automatic)
+5.  Variable Encoding
+6.  Scaling
+7.  Transformation
+8.  (extra) Feature Creation
+
    
 
 
@@ -141,8 +142,21 @@ Pseudo code of Robust Scaling: Robust Scaling Value = (value - median) / (p75 - 
 In Python, you can use method *RobustScaler* directly from *sklearn.preprocessing*.  [here](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html)
 
 
+# 3.  Cardinality 
+-------
+In feature engineering, high cardinality refers to categorical variables that have a large number of distinct categories or unique values. High cardinality can pose the problems of sparse data (many categories might have very few observations) and problems in subsequent steps when one-hot encoding is performed (generating many extra features).
 
 
+
+# 3.  Binning 
+-------
+
+
+### Weight of Evidence (WoE) - Manual Binning
+
+
+
+### Monotonic Optimal Binning (MoB) - Automatic Binning
 
 
 
