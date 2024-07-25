@@ -148,7 +148,7 @@ In feature engineering, high cardinality refers to categorical variables that ha
 
 
 
-# 3.  Binning 
+# 4.  Binning 
 -------
 
 
