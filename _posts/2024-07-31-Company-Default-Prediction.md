@@ -1,5 +1,5 @@
 ---
-title: 'Predict Company Default'
+title: 'ML Project: Company Default Prediction'
 date: 2024-07-31
 permalink: /posts/2024/07/blog-post-5/
 tags:
