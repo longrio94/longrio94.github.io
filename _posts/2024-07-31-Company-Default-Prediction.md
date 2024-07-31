@@ -8,6 +8,11 @@ tags:
   - VariableSelection
 ---
 
+
+
+
+
+
 This is a binary classification problem to predict company bankruptcy using data from the Taiwan
 Economic Journal for the years 1999–2009. The dataset is highly imbalanced, a common characteristic
 for default/bankruptcy prediction problems. All predictors in this dataset are numeric, primarily
