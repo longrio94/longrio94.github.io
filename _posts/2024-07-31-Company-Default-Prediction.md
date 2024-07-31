@@ -20,10 +20,10 @@ consisting of financial indicators from financial statements. There are no missi
 
 
 
-The dataset can be accessed  [HERE]([url](https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction/data))
+The dataset can be accessed  [HERE](https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction/data)
 
 
-You can access my solution [HERE]([url](https://github.com/longrio94/Company-Default-Prediction/blob/main/Bankruptcy_Prediction.pdf))
+You can access my solution [HERE](https://github.com/longrio94/Company-Default-Prediction/blob/main/Bankruptcy_Prediction.pdf)
 
 
 
