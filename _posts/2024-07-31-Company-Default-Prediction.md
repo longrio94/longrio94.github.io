@@ -39,18 +39,18 @@ My Plan for Variable Selection:
 
 
 1. Screening: Remove near-zero variance (NZV) and zero variance (ZV) predictors, and eliminate highly
-correlated variables to reduce redundancy.
+correlated variables to reduce redundancy. Reduced from 96 predictors to 75 predictors.
 
 2. Filtering Method: Use automatic Weight of Evidence (WoE) binning via Decision Trees and drop
-variables based on Information Value (IV).
+variables based on Information Value (IV). Reduced from 75 predictors to 34 predictors.
 
 3. Wrapper Method: Apply Recursive Feature Elimination (RFE) to perform an initial broad reduction of
 the feature set. RFE quickly eliminates a large number of irrelevant features based on their
-importance scores from an estimator.
+importance scores from an estimator. Reduced from 34 predictors to 21 predictors.
 
 4. Performance-Oriented Method: Use Backward Trimming (BART) to ensure that the final feature set is
 optimized for performance, potentially addressing any multicollinearity issues or feature interactions
-that RFE might not fully capture.
+that RFE might not fully capture. Reduced from 21 predictors to 10 predictors
 
 
 After the variable selection process, I will use a Random Forest classifier with hyperparameter tuning to
