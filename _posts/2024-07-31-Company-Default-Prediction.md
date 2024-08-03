@@ -23,7 +23,7 @@ consisting of financial indicators from financial statements. There are no missi
 The dataset can be accessed  [HERE](https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction/data)
 
 
-You can access my solution [HERE](https://github.com/longrio94/Company-Default-Prediction/blob/main/Bankruptcy_Prediction.pdf)
+You can access my solution in Jupyter Notebook [HERE](https://github.com/longrio94/Company-Default-Prediction/blob/main/Bankruptcy_Prediction_Calib.ipynb)
 
 
 
@@ -57,7 +57,18 @@ After the variable selection process, I will use a Random Forest classifier with
 train the model.
 
 
+Result Discussion:
 
-In the end, the final model with only 10 variables achieved an AUC-ROC of 92% on the test set. 
 
-The AUC-ROC on the training set was 93.45%, indicating no significant overfitting when comparing the test set and training set.
+In the end, the final model with only 10 variables achieved an AUC-ROC of 92% on the test set. The AUC-ROC on the training set was 93.45%, indicating no significant overfitting when comparing the test set and training set.
+
+
+However, AUC-ROC alone is not the 'best' and only metric to measure a binary classifier for a highly imbalanced dataset. It is very important to apply calibration to binary classification. Calibration techniques like Platt or Isotonic are used to calibrate the output probabilities of a binary classifier. This means they adjust the probability scores to be more accurate and better represent the true likelihood of a particular class. Curve calibration techniques can significantly improve the reliability and quality of the classifier.
+
+
+![image](https://github.com/user-attachments/assets/d674032e-4902-472b-8dbc-fd3502b3fed8)
+
+
+Additionally, I have used the Brier Score, which measures the mean squared difference between predicted probabilities and the actual outcomes.
+
+
